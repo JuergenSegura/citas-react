@@ -1,7 +1,9 @@
 function Formulario () {
 
     return (
-        <h1>form</h1>
+        <div >
+            <h1>form</h1>
+        </div>
     )
 
    
