@@ -1,7 +1,7 @@
 function Formulario () {
 
     return (
-        <div className="md:w-1/2 lg:w2/5">
+        <div className="md:w-1/2 lg:w2/5 mb-10">
             <h2 className="font-black text-3xl text-center">Seguimiento Pacientes</h2>
 
             <p className="text-lg mt-5 text-center">Añade Pacientes y {''}
@@ -35,9 +35,9 @@ function Formulario () {
 
                 <div className="mb-5">
                     <label htmlFor="nombreMascota" className="block text-gray-700 uppercase">Nombre Mascota</label>
-                   <textarea id="sintomas"
+                   <textarea id="síntomas"
                     className="border-2 w-full mt-2 placeholder-gray-400 rounded-md"
-                    placeholder="Describe los sintomas."
+                    placeholder="Describe los síntomas."
                    />
                 </div>
                 
